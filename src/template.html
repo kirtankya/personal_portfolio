@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Talent Trove</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
+    integrity="sha512-Eak/29OTpb36LLo2r47IpVzPBLXnAMPAVypbSZiZ4Qkf8p/7S/XRG5xp7OKWPPYfJT6metI+IORkR5G8F900+g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+  <script src="https://cdn.jsdelivr.net/npm/kursor"></script>
+  <script src="https://smtpjs.com/v3/smtp.js">
+  </script>
+</head>
+
+<body>
+  <div id="loading-wrapper">
+    <div id="loading-text">LOADING</div>
+    <div id="loading-content"></div>
+  </div>
+  <div id="wrapper" class="hidden">
+    <div class="navbar">
+      <nav class="navbar navbar-expand-lg navbar-main">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="./assets/logo/Logo.png" alt="logo"></a>
+          <div class="toggle-button">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+          <div class="collapse navbar-collapse navbar-aligment" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./project.html">Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./service.html">Service</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Testimonial</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./blog.html">Article</a>
+              </li>
+            </ul>
+          </div>
+          <div class="contact_us">
+            <button>Contact us</button>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="herobanner-main">
+      <div class="container-lg animate__animated animate__fadeInDown" data-wow-offset="1000">
+        <div class=" herobanner-profile">
+          <div class="herobanner-main-circle">
+            <div class="herobanner_circle">
+
+            </div>
+            <div class="herobanner-circle-2">
+
+            </div>
+            <div class="herobanner-circle-3">
+
+            </div>
+            <div class="herobanner-image">
+
+            </div>
+            <div class="herobanner-box">
+              <div class="icon">
+                <img src="./assets/icons/award-svgrepo-com (1) 1.png" alt="icon">
+              </div>
+              <div class="text">
+                <p>Best Design <br> Award.</p>
+              </div>
+            </div>
+            <div class="herobanner-box-1">
+              <div class="icon">
+                <img src="./assets/icons/person-svgrepo-com 1.png" alt="icon1">
+              </div>
+              <div class="text">
+                <p>2K</p>
+                <span>Happy Clients</span>
+              </div>
+            </div>
+          </div>
+          <div class="herobanner-text">
+            <h1>👋 Hey There, I’m <br> <span>UI/UX
+                Designer</span>
+            </h1>
+            <p>Product Designer and UI/UX Designer. I’m specialize in User Experience Design, User Research, Product
+              Design, and User Interface Design.</p>
+            <div class="button-alignment">
+              <div class="button">
+                <button>View Project
+                  <i class="bi bi-arrow-right icon-right"></i>
+                </button>
+
+              </div>
+              <div class="button">
+                <button class="button-1">
+                  <i class="bi bi-download icon-download"></i>
+                  Download CV
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="herobanner-work">
+          <h2>I work with over 2k+ happy <br>
+            clients all over the world.
+          </h2>
+          <div class="herobanner-logo-aligment">
+            <div class="herobanner-logo-box">
+              <img src="./assets/icons/Vector.png" alt="vector">
+            </div>
+            <div class="herobanner-logo-box">
+              <img src="./assets/icons/Vector.png" alt="vector">
+            </div>
+            <div class="herobanner-logo-box">
+              <img src="./assets/icons/Vector.png" alt="vector">
+            </div>
+            <div class="herobanner-logo-box">
+              <img src="./assets/icons/Vector.png" alt="vector">
+            </div>
+            <div class="herobanner-logo-box">
+              <img src="./assets/icons/Vector.png" alt="vector">
+            </div>
+            <div class="herobanner-logo-box">
+              <img src="./assets/icons/Vector.png" alt="vector">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="service-main">
+      <div class="container-lg animate__animated animate__fadeInUp" data-wow-offset="1000">
+        <div class="service-text">
+          <h1>My Services</h1>
+          <p>Provide Wide Range of Digital Services</p>
+        </div>
+        <div class="service-aligment">
+          <div class="service-text-box">
+            <img src="./assets/icons/Group.png" alt="ui-ux">
+            <div class="service-box-text">
+              <h3>Ui/Ux Design</h3>
+              <p>Dolor repellendus tempo ribus aue
+                quibusdam offi ciis debitis rerum na
+                aibus minima veniam.
+              </p>
+              <a href="">Read more</a>
+            </div>
+          </div>
+          <div class="service-text-box">
+            <img src="./assets/icons/Group.png" alt="ui-ux">
+            <div class="service-box-text">
+              <h3>Mobile App Design</h3>
+              <p>Dolor repellendus tempo ribus aue
+                quibusdam offi ciis debitis rerum na
+                aibus minima veniam.
+              </p>
+              <a href="">Read more</a>
+            </div>
+          </div>
+          <div class="service-text-box">
+            <img src="./assets/icons/Group.png" alt="ui-ux">
+            <div class="service-box-text">
+              <h3>Web Design</h3>
+              <p>Dolor repellendus tempo ribus aue
+                quibusdam offi ciis debitis rerum na
+                aibus minima veniam.
+              </p>
+              <a href="">Read more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-us-main">
+      <div class="container-lg animate__animated animate__zoomIn" data-wow-offset="1000">
+        <div class="about-aligment">
+          <div class="about">
+            <div class="about-us-box">
+
+            </div>
+            <div class="about-us-image">
+
+            </div>
+          </div>
+
+
+          <div class="about-us-box-main">
+            <div class="about-us-aligment">
+              <div class="about-us">
+                <p>15Yrs</p>
+                <span>Experience</span>
+              </div>
+              <div class="about-us">
+                <p>250+</p>
+                <span>Projects Done</span>
+              </div>
+              <div class="about-us">
+                <p>2k+</p>
+                <span>Happy Client</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-us-details">
+            <h3>About Me</h3>
+            <div class="about-text">
+              <p>🔥 Designer</p>
+              <p>📚 Instructor</p>
+              <p>🎤 Podcaster</p>
+            </div>
+            <h2>I Design Intuitive Interfaces for a Seamless User Journey</h2>
+            <p>Aliquam interdum vehicula ornare. Donec condimentum gravida purus sit amet lobortis.</p>
+            <p>Proin a dui ac augue pulvinar malesuada. Quisque ac velit non ligula gravida elementum a vel ex. Vivamus
+              finibus ex in
+              venenatis pellentesque. Phasellus nec porta enim. Donec id purus id est efficitur pulvinar. Duis nec
+              tempus ligula.
+            </p>
+            <div class="button">
+              <button class="button-2">
+                <i class="bi bi-download icon-download"></i>
+                Download CV
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-main">
+      <div class="container-lg animate__animated animate__pulse" data-wow-offset="1000">
+        <div class="project-text">
+          <h2>My Projects</h2>
+        </div>
+        <div class="project-main-cards">
+          <div class="project-card">
+            <div class="project-image">
+
+            </div>
+            <div class="project-details">
+              <span>Analytics, UI-Ux</span>
+              <h3 class="text-details">Branding & Digital Video <br> Campaign For George’s Cafe</h3>
+              <p>Lorem Ipsum Is Simply Dummy Text Of The
+                Printing And Typesetting Industry.
+              </p>
+              <a href="">View Case Studies
+                <i class="bi bi-arrow-right icon-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+
+            </div>
+            <div class="project-details">
+              <span>Mobile Apps</span>
+              <h3 class="text-details">Branding & Digital Video <br> Campaign For George’s Cafe</h3>
+              <p>Lorem Ipsum Is Simply Dummy Text Of The
+                Printing And Typesetting Industry.
+              </p>
+              <a href="">View Case Studies
+                <i class="bi bi-arrow-right icon-right"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-image">
+
+            </div>
+            <div class="project-details">
+              <span>Web Development</span>
+              <h3 class="text-details">Branding & Digital Video <br> Campaign For George’s Cafe</h3>
+              <p>Lorem Ipsum Is Simply Dummy Text Of The
+                Printing And Typesetting Industry.
+              </p>
+              <a href="">View Case Studies
+                <i class="bi bi-arrow-right icon-right"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="button">
+          <button>Explore More</button>
+        </div>
+      </div>
+    </div>
+    <div class="skill-main">
+      <div class="container-lg animate__animated animate__bounceInUp" data-wow-offset="1000">
+        <div class="skill-aligments">
+          <div class="skill-text">
+            <h2>My skill is my power.</h2>
+            <p>Maecenas nec sapien ac nulla eleifend ultrices. Maecenas non sagittis dui. Donec eleifend nisi id felis.
+            </p>
+            <div class="main-skillbar">
+              <div class="skill-process">
+                <div class="aligment">
+                  <div class="skill-aligment">
+                    <i class="bi bi-search icon-search"></i>
+                    <span>User Search</span>
+                  </div>
+                  <p class="text">95%</p>
+                </div>
+                <div class="progress" role="progressbar" aria-label="example" aria-valuenow="95" aria-valuemin="0"
+                  aria-valuemax="100">
+                  <div class="progress-bar main" style="width: 95%">95%</div>
+                </div>
+              </div>
+            </div>
+            <div class="main-skillbar">
+              <div class="skill-process">
+                <div class="aligment">
+                  <div class="skill-aligment">
+                    <i class="bi bi-person-circle icon-profile"></i>
+                    <span>User Experience Design</span>
+                  </div>
+                  <p class="text1">87%</p>
+                </div>
+                <div class="progress" role="progressbar" aria-label="example" aria-valuenow="95" aria-valuemin="0"
+                  aria-valuemax="100">
+                  <div class="progress-bar main-1" style="width: 87%">87%</div>
+                </div>
+              </div>
+            </div>
+            <div class="main-skillbar">
+              <div class="skill-process">
+                <div class="aligment">
+                  <div class="skill-aligment">
+                    <i class="bi bi-box-seam icon-box"></i>
+                    <span>Usability Testing</span>
+                  </div>
+                  <p class="text2">91%</p>
+                </div>
+                <div class="progress" role="progressbar" aria-label="example" aria-valuenow="95" aria-valuemin="0"
+                  aria-valuemax="100">
+                  <div class="progress-bar main-2" style="width: 91%">91%</div>
+                </div>
+              </div>
+            </div>
+            <div class="main-skillbar">
+              <div class="skill-process">
+                <div class="aligment">
+                  <div class="skill-aligment">
+                    <i class="bi bi-stack icon-design"></i>
+                    <span>Interaction Design</span>
+                  </div>
+                  <p class="text3">73%</p>
+                </div>
+                <div class="progress" role="progressbar" aria-label="example" aria-valuenow="95" aria-valuemin="0"
+                  aria-valuemax="100">
+                  <div class="progress-bar main-3" style="width: 95%">95%</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skill_main">
+            <div class="skill-images">
+              <div class="skill-man">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="personal_work_main">
+      <div class="container-lg animate__animated animate__fadeInUp" data-wow-offset="1000">
+        <div class="row">
+          <div class="personal_text">
+            <h2>Personal Work</h2>
+            <p>Presenting My Design Portfolio <br>
+              and Case Studies
+            </p>
+            <div class="col-12 ">
+              <div class="bg-transparent rounded p-2">
+                <ul class="nav nav-tabs justify-content-center tab-item">
+                  <li class="nav-item button">
+                    <button class="nav-link active button" data-bs-toggle="tab" href="#all">All</button>
+                  </li>
+                  <li class="nav-item button">
+                    <button class="nav-link button-1" data-bs-toggle="tab" href="#latest">Ui/Ux Design</button>
+                  </li>
+                  <li class="nav-item button">
+                    <button class="nav-link button-1" data-bs-toggle="tab" href="#week">Branding Design</button>
+                  </li>
+                  <li class="nav-item button">
+                    <button class="nav-link button-1" data-bs-toggle="tab" href="#wordpress">Wordpress</button>
+                  </li>
+                </ul>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="tab-content ">
+                      <div id="all" class="tab-pane fade in active show main-tab">
+                        <div class="row">
+                          <div class="col-lg-4 col-md-6 col-sm-6 p-3">
+                            <div class="card-main">
+                              <!-- <img src="media/product_05.jpg" alt=""> -->
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-6 p-3">
+                            <div class="card-main">
+                              <!-- <img src="media/product_02.jpg" alt=""> -->
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-6 p-3">
+                            <div class="card-main">
+                              <!-- <img src="media/product_03.jpg" alt=""> -->
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-6 p-3">
+                            <div class="card-main">
+                              <!-- <img src="media/product_04.jpg" alt=""> -->
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-6 p-3">
+                            <div class="card-main">
+                              <!-- <img src="media/product_04.jpg" alt=""> -->
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-6 p-3">
+                            <div class="card-main">
+                              <!-- <img src="media/product_04.jpg" alt=""> -->
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="latest" class="tab-pane fade main-tab1 ">
+                        <div class="row">
+                          <div class="col-lg-4 col-md-6 col-sm-10 my-4">
+                            <div class="card-main1">
+
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-10 my-4">
+                            <div class="card-main1">
+
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-10 my-4">
+                            <div class="card-main1">
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div id="week" class="tab-pane fade main-tab2 ">
+                        <div class="row">
+                          <div class="col-lg-4 col-md-6 col-sm-10 my-4">
+                            <div class="card-main2">
+                              <!-- <img src="media/product_06.jpg" alt=""> -->
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-10 my-4">
+                            <div class="card-main2">
+                              <!-- <img src="media/product_02.jpg" alt=""> -->
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-10 my-4">
+                            <div class="card-main2">
+
+                            </div>
+                          </div>
+
+                        </div>
+
+                      </div>
+                      <div id="wordpress" class="tab-pane fade main-tab3 ">
+                        <div class="row">
+                          <div class="col-lg-4 col-md-6 col-sm-10 my-4">
+                            <div class="card-main3">
+                              <!-- <img src="media/product_06.jpg" alt=""> -->
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-10 my-4">
+                            <div class="card-main3">
+                              <!-- <img src="media/product_02.jpg" alt=""> -->
+                            </div>
+                          </div>
+                          <div class="col-lg-4 col-md-6 col-sm-10 my-4">
+                            <div class="card-main3">
+
+                            </div>
+                          </div>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="article-main">
+      <div class="container-lg">
+        <div class="article-text">
+          <h2>Latest Articles</h2>
+          <p>Nam malesuada est elementum nibh tristique, non ornare lacus mollis. Sed lectus nulla, ultrices in gravida
+            in.
+          </p>
+        </div>
+        <div class="article-aligment">
+          <div class="article-card">
+            <div class="article-image"></div>
+            <div class="article-details">
+              <div class="article-item">
+                <div class="article-date">
+                  <i class="bi bi-calendar4 icon-date"></i>
+                  <p>17 Oct, 2020</p>
+                </div>
+                <div class="article-notebook">
+                  <i class="bi bi-journal icon-notebook"></i>
+                  <p>5 min read</p>
+                </div>
+              </div>
+              <h2>Duis magna risus, convallis vel purus eu, sollicidin volutpat velit.</h2>
+              <p>Praesent turpis quam, dapibus id diam a, cursus lobortis mi. Praesent nec lorem eget nisi sodales
+                vehicula etiam
+                sagittis dapibus.
+              </p>
+              <div class="button-outline">
+                <button>
+                  Read more
+                  <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="article-card">
+            <div class="article-image"></div>
+            <div class="article-details">
+              <div class="article-item">
+                <div class="article-date">
+                  <i class="bi bi-calendar4 icon-date"></i>
+                  <p>17 Oct, 2020</p>
+                </div>
+                <div class="article-notebook">
+                  <i class="bi bi-journal icon-notebook"></i>
+                  <p>5 min read</p>
+                </div>
+              </div>
+              <h2>Duis magna risus, convallis vel purus eu, sollicidin volutpat velit.</h2>
+              <p>Praesent turpis quam, dapibus id diam a, cursus lobortis mi. Praesent nec lorem eget nisi sodales
+                vehicula etiam
+                sagittis dapibus.
+              </p>
+              <div class="button-outline">
+                <button>
+                  Read more
+                  <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="article-card">
+            <div class="article-image"></div>
+            <div class="article-details">
+              <div class="article-item">
+                <div class="article-date">
+                  <i class="bi bi-calendar4 icon-date"></i>
+                  <p>17 Oct, 2020</p>
+                </div>
+                <div class="article-notebook">
+                  <i class="bi bi-journal icon-notebook"></i>
+                  <p>5 min read</p>
+                </div>
+              </div>
+              <h2>Duis magna risus, convallis vel purus eu, sollicidin volutpat velit.</h2>
+              <p>Praesent turpis quam, dapibus id diam a, cursus lobortis mi. Praesent nec lorem eget nisi sodales
+                vehicula etiam
+                sagittis dapibus.
+              </p>
+              <div class="button-outline">
+                <button>
+                  Read more
+                  <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="client-testiomal-main">
+      <div class="container-lg">
+        <div class="client-testiomal-text">
+          <h2>Client Testimonial</h2>
+          <p>Nam malesuada est elementum nibh tristique, non ornare lacus mollis. Sed lectus nulla, ultrices in gravida
+            in.</p>
+        </div>
+        <div id="carouselExampleControlsNoTouching" class="carousel slide slider" data-bs-touch="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="client-testiomal-box">
+                <div class="profile">
+                  <img src="./assets/image/profile.png" alt="Profile Image" />
+                </div>
+                <div class="client-text">
+                  <p>“Kevin Did a wonderful job animating set of static stickers. Work was done very quickly and the
+                    quality is outstanding.
+                    she managed to create great looking, flawless animation even with very limited number of frames
+                    allowed per stickers”
+                  </p>
+                  <h3>Cameron Williamson</h3>
+                  <span>Chief Executive Officer of GIGL</span>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="client-testiomal-box">
+                <div class="profile">
+                  <img src="./assets/image/profile.png" alt="Profile Image" />
+                </div>
+                <div class="client-text">
+                  <p>“Kevin is very hard and great worker. He thinks about prolem, find solution and has a awesome
+                    working
+                    morale”
+                  </p>
+                  <h3>Esther Howard</h3>
+                  <span>Chief Executive Officer of GIGL</span>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="client-testiomal-box">
+                <div class="profile">
+                  <img src="./assets/image/profile.png" alt="Profile Image" />
+                </div>
+                <div class="client-text">
+                  <p>Great Designer, does great work and is very flexible with change. if you’re a programmer and are
+                    looking for UI/UX
+                    designer is definitely well qualified for the job.
+                  </p>
+                  <h3>Savannah Nguyen</h3>
+                  <span>Chief Executive Officer of GIGL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="button-aligments">
+            <button class="carousel-control-prev prevButton" type="button"
+              data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+              <!-- <span class="carousel-control-prev-icon icon-slider" aria-hidden="true"></span> -->
+              <i class="bi bi-arrow-left icon-slider"></i>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next nextButton" type="button"
+              data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+              <!-- <span class="carousel-control-next-icon icon-slider" aria-hidden="true"></span> -->
+              <i class="bi bi-arrow-right icon-slider"></i>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="work-together">
+      <div class="work-main">
+        <div class="container-lg">
+          <div class="work-main-text">
+            <h2>Have a project idea in mind.
+              Get in touch and let's chat!
+            </h2>
+            <p>I am taking on new projects. Waiting to hear about new
+              projects, so if you'd like to chat please get in touch.
+            </p>
+            <div class="button">
+              <button>
+                Let's Work Together
+                <i class="bi bi-arrow-right"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="contact-us-main">
+      <div class="contact-form-main">
+        <div class="contact-details-aligment">
+          <div class="contact-details">
+            <h2>Have a project or question in mind? Just send me a message.</h2>
+            <p>Do you fancy saying hi to me or do you want to get started with your project and you need my help? Feel
+              free to contact
+              me. I will reply within 48 hours.
+            </p>
+            <div class="contact-box-aligment">
+              <div class="contact-box">
+                <i class="bi bi-telephone-minus icon-contact"></i>
+              </div>
+              <div class="contact-text">
+                <span>Call me now</span>
+                <p>1-202-555-0190</p>
+              </div>
+            </div>
+            <div class="contact-box-aligment">
+              <div class="contact-box">
+                <i class="bi bi-envelope icon-mail"></i>
+              </div>
+              <div class="contact-text">
+                <span>Chat with me</span>
+                <p>Username@gmail.com</p>
+              </div>
+            </div>
+            <div class="social-media-main">
+              <h3>Follow me on social media</h3>
+              <div class="social-aligment">
+                <div class="line">
+
+                </div>
+                <div class="facebook">
+                  <i class="bi bi-facebook icon-facebook"></i>
+                </div>
+                <div class="facebook">
+                  <i class="bi bi-twitter icon-twitter"></i>
+                </div>
+                <div class="facebook">
+                  <i class="bi bi-linkedin icon-linkdin"></i>
+                </div>
+                <div class="facebook">
+                  <i class="bi bi-instagram icon-instagam"></i>
+                </div>
+                <div class="facebook">
+                  <i class="bi bi-facebook icon-facebook"></i>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h2>Just say 👋 Hi</h2>
+            <form action="https://formsubmit.co/dd8f1eac0b9ebc66def96ce80275fd31" method="POST" class=" row g-3">
+              <div class="col-md-6">
+                <input type="text" name="name" placeholder="FullName" class="form-control" id="validationDefault01"
+                  required>
+              </div>
+              <div class="col-md-6">
+                <input type="text" name="email" placeholder="Email Adrress" class="form-control"
+                  id="validationDefault02" required>
+              </div>
+              <div class="col-md-12">
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Subject" name="subjcet"
+                    id="validationDefaultSubjcet" aria-describedby="inputGroupPrepend2" required>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <select name="services" class="form-select" id="validationDefault04" required>
+                  <option selected disabled value="">Services</option>
+                  <option>Ui-Ux Design</option>
+                  <option>Web Design</option>
+                  <option>Fronted Devolpment</option>
+                  <option>Backend Devolpment</option>
+                  <option>Flutter</option>
+                </select>
+              </div>
+              <div class="col-md-6">
+                <select name="Budegts" class="form-select" id="validationDefault05" required>
+                  <option selected disabled value="">Budgets</option>
+                  <option>less$500</option>
+                  <option>$500-$1500</option>
+                  <option>$1500-2500</option>
+                  <option>$2500-$3500</option>
+                  <option>more$3500</option>
+                </select>
+              </div>
+              <div class="col-md-12">
+                <div class="form-floating">
+                  <textarea name="message" class="form-control" placeholder="Leave a comment here"
+                    id="floatingTextarea2" style="height: 100px"></textarea>
+                  <label for="floatingTextarea2">Message</label>
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                  <label class="form-check-label" for="invalidCheck2">
+                    Agree to terms and conditions
+                  </label>
+                </div>
+              </div>
+              <div class="button">
+                <button>
+                  Send Message
+                  <i class="bi bi-arrow-right"></i>
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <p>© Copyright 2024</p>
+    </footer>
+
+    <button class="back-to-top" type="button"></button>
+  </div>
+  <script>
+    new kursor({
+      type: 1
+    })
+  </script>
+  <script>
+    new WOW().init();
+  </script>
+  <script src="./index.js"></script>
+</body>
+
+</html>
